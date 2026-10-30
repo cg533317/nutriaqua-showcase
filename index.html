@@ -7,7 +7,7 @@
 <meta name="color-scheme" content="light">
 <meta name="robots" content="index, follow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'; object-src 'none'; media-src 'self'">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="NUTRIAQUA: tecnologia e design para organizar a gestão da alimentação escolar. Explore uma demonstração segura com dados fictícios.">
@@ -34,7 +34,7 @@
       <span class="brand-name">nutri<span>aqua</span><small>SOFTWARE / ESTUDO DE CASO</small></span>
     </a>
     <nav class="nav-links" id="main-nav" aria-label="Navegação principal">
-      <a href="#visao">Visão</a><a href="#modulos">Solução</a><a href="#galeria">Demonstração</a><a href="#engenharia">Engenharia</a>
+      <a href="#visao">Visão</a><a href="#modulos">Solução</a><a href="#galeria">Demonstração</a><a href="#video">Vídeo</a><a href="#engenharia">Engenharia</a>
     </nav>
     <div class="nav-actions"><a class="nav-visit" href="https://github.com/cg533317" target="_blank" rel="noopener noreferrer">Perfil GitHub <span aria-hidden="true">↗</span></a>
       <button id="mobile-menu" class="menu-button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
@@ -100,15 +100,39 @@
       <div class="disclaimer"><span aria-hidden="true">ⓘ</span><p>Capturas do ambiente local validado para seis fluxos específicos. Foram reportados 197 testes direcionados aprovados; a regressão completa do sistema permanece pendente. Os dados exibidos são exclusivamente demonstrativos.</p></div>
     </div>
   </section>
+  <section class="video-showcase section-pad" id="video" aria-labelledby="video-title">
+    <div class="video-ambient" aria-hidden="true"></div>
+    <div class="container video-showcase-inner">
+      <div class="section-head video-section-head">
+        <div>
+          <div class="kicker light"><span>04</span> / CONHEÇA EM MOVIMENTO</div>
+          <h2 id="video-title" class="display-head">Uma experiência para <span>assistir.</span></h2>
+        </div>
+        <p>Em 52 segundos, conheça os principais módulos do NUTRIAQUA. Um filme de apresentação construído com capturas reais de um ambiente demonstrativo, exclusivamente com dados fictícios.</p>
+      </div>
+      <div class="video-frame">
+        <div class="video-frame-heading"><span class="video-live-dot" aria-hidden="true"></span><span>NUTRIAQUA / APRESENTAÇÃO AUDIOVISUAL</span><span>00:52 · SEM ÁUDIO</span></div>
+        <video controls playsinline preload="none" width="1280" height="720" poster="assets/video/capa-video.jpg" aria-describedby="video-note">
+          <source src="assets/video/NUTRIAQUA-F10-52s.mp4" type="video/mp4">
+          Seu navegador não reproduz vídeos MP4. <a href="assets/video/NUTRIAQUA-F10-52s.mp4">Abrir vídeo demonstrativo</a>.
+        </video>
+        <div class="video-frame-foot"><span>TECHNOLOGY AQUARIUS <span class="video-sep">/</span> NUTRIAQUA</span><span>AMBIENTE DEMONSTRATIVO — DADOS FICTÍCIOS</span></div>
+      </div>
+      <div class="video-details">
+        <p id="video-note">Vídeo silencioso, com textos integrados às cenas. Não há dados reais nem registros de produção. As imagens representam apenas os fluxos demonstrados.</p>
+        <a href="docs/roteiro-video.html" class="video-transcript">Ler a descrição das cenas <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
   <section class="engineering section-pad" id="engenharia"><div class="engineering-glow" aria-hidden="true"></div>
-    <div class="container engineering-layout"><div class="engineering-copy"><div class="kicker light"><span>04</span> / POR TRÁS DA INTERFACE</div><h2 class="display-head">Design na superfície.<br><span>Engenharia na base.</span></h2><p>O NUTRIAQUA usa uma arquitetura web modular. Esta é uma visão conceitual e pública, sem detalhes de infraestrutura, credenciais ou regras operacionais privadas.</p><div class="stack-tags"><span>Python</span><span>Flask</span><span>Jinja2</span><span>Bootstrap</span><span>Pytest</span></div><a class="text-link" href="docs/arquitetura.html">Ler arquitetura pública <span aria-hidden="true">↗</span></a></div>
+    <div class="container engineering-layout"><div class="engineering-copy"><div class="kicker light"><span>05</span> / POR TRÁS DA INTERFACE</div><h2 class="display-head">Design na superfície.<br><span>Engenharia na base.</span></h2><p>O NUTRIAQUA usa uma arquitetura web modular. Esta é uma visão conceitual e pública, sem detalhes de infraestrutura, credenciais ou regras operacionais privadas.</p><div class="stack-tags"><span>Python</span><span>Flask</span><span>Jinja2</span><span>Bootstrap</span><span>Pytest</span></div><a class="text-link" href="docs/arquitetura.html">Ler arquitetura pública <span aria-hidden="true">↗</span></a></div>
     <div class="architecture-scene" aria-label="Diagrama conceitual com quatro camadas: experiência, aplicação, serviços e dados"><div class="arch-top">NUTRIAQUA / STACK <span>vitrine pública</span></div><div class="stack-card level-one"><i></i><div><small>CAMADA 01</small><b>Experiência web</b><span>Interface e navegação</span></div><span class="stack-no">01</span></div><div class="stack-card level-two"><i></i><div><small>CAMADA 02</small><b>Aplicação Flask</b><span>Rotas e fluxo da aplicação</span></div><span class="stack-no">02</span></div><div class="stack-card level-three"><i></i><div><small>CAMADA 03</small><b>Serviços e validações</b><span>Regras e processamento</span></div><span class="stack-no">03</span></div><div class="stack-card level-four"><i></i><div><small>CAMADA 04</small><b>Dados e documentos</b><span>Persistência e relatórios</span></div><span class="stack-no">04</span></div></div>
     </div>
   </section>
-  <section class="closing section-pad" id="proximos-passos"><div class="container closing-layout"><div class="kicker"><span>05</span> / EM EVOLUÇÃO</div><div><h2 class="display-head">Software que se constrói.<br><span>Histórias que se mostram.</span></h2><p>Esta vitrine apresenta um projeto independente de software e o processo de transformá-lo em uma experiência visual clara. Próxima etapa: uma demonstração audiovisual baseada nas telas aprovadas.</p><div class="closing-actions"><a class="btn btn-dark" href="#topo">Voltar ao início <span aria-hidden="true">↑</span></a><a class="btn btn-outline" href="https://github.com/cg533317" target="_blank" rel="noopener noreferrer">Conhecer o perfil no GitHub <span aria-hidden="true">↗</span></a></div></div></div></section>
+  <section class="closing section-pad" id="proximos-passos"><div class="container closing-layout"><div class="kicker"><span>06</span> / EM EVOLUÇÃO</div><div><h2 class="display-head">Software que se constrói.<br><span>Histórias que se mostram.</span></h2><p>Esta vitrine apresenta um projeto independente de software e o processo de transformá-lo em uma experiência visual clara. O vídeo institucional demonstrativo já está disponível nesta vitrine, com as telas aprovadas e a identidade da Technology Aquarius.</p><div class="closing-actions"><a class="btn btn-dark" href="#topo">Voltar ao início <span aria-hidden="true">↑</span></a><a class="btn btn-outline" href="https://github.com/cg533317" target="_blank" rel="noopener noreferrer">Conhecer o perfil no GitHub <span aria-hidden="true">↗</span></a></div></div></div></section>
   <section class="authorship section-pad" id="autoria" aria-labelledby="author-heading">
     <div class="container closing-layout">
-      <div class="kicker"><span>06</span> / QUEM CRIOU O NUTRIAQUA</div>
+      <div class="kicker"><span>07</span> / QUEM CRIOU O NUTRIAQUA</div>
       <div class="author-content">
         <div class="author-eyebrow">CARLOS GOMES <span aria-hidden="true">/</span> TECHNOLOGY AQUARIUS</div>
         <h2 id="author-heading" class="display-head">Pessoas criam tecnologia.<br><span>Propósito dá direção.</span></h2>

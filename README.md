@@ -31,11 +31,15 @@ As seis capturas abaixo foram produzidas em ambiente local isolado, com informa�
 
 **Arquitetura:** [explicação pública](docs/arquitetura.html), sem topologia de produção nem segredos.
 
+## Vídeo demonstrativo
+
+O [vídeo institucional silencioso (52 segundos)](assets/video/NUTRIAQUA-F10-52s.mp4) está integrado na [seção audiovisual do site](https://cg533317.github.io/nutriaqua-showcase/#video), com [descrição das cenas](docs/roteiro-video.html). Usa exclusivamente capturas com dados fictícios. Não houve acesso à produção.
+
 ## Site público
 
-A versão estática foi preparada para GitHub Pages em um repositório independente. Após a publicação e os testes finais, o endereço esperado é:
+A vitrine está publicada no GitHub Pages:
 
-`https://cg533317.github.io/nutriaqua-showcase/`
+**[Abrir o site oficial do showcase](https://cg533317.github.io/nutriaqua-showcase/)**
 
 ## Escopo e verificação
 
