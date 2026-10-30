@@ -1,0 +1,13 @@
+.architecture-page .site-header{position:relative;background:#0b0c1b}.architecture-back{display:inline-flex;min-height:44px}
+.architecture-hero{padding:95px 0 100px;background:radial-gradient(ellipse at 90% 20%,#302653,transparent 60%),#0b0c1b;color:#fff}
+.architecture-hero h1{font-size:clamp(44px,6vw,88px);line-height:1.04;letter-spacing:-.065em;margin:30px 0}.architecture-hero h1 span{color:#b4a4ff}
+.architecture-hero p{font-size:19px;line-height:1.75;color:#c3ccdd;max-width:680px}.architecture-note{font-size:11px;letter-spacing:.12em;color:#83edda;margin-top:35px}
+.architecture-content{background:#f4f5f9}.architecture-content .section-head>p{color:#596779}.architecture-content .display-head span{color:#137d77}
+.architecture-flow{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:50px 0 20px}
+.architecture-flow li,.flow-destinations article{padding:28px;border-radius:18px;background:white;border:1px solid #dce2ed;position:relative}
+.layer-number{font-size:11px;letter-spacing:.12em;font-weight:750;color:#4f4a82}.architecture-flow h3,.flow-destinations h3{font-size:23px;letter-spacing:-.035em;line-height:1.2;margin:22px 0 12px}
+.architecture-flow p,.flow-destinations p,.flow-caption{font-size:15px;line-height:1.7;color:#596779;margin:0}.flow-destinations{display:grid;grid-template-columns:1fr 1fr;gap:18px}.flow-destinations article{background:#e7f4f0;border-color:#bcded5}.flow-caption{margin-top:22px;max-width:850px}
+.technology-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:45px 0}.technology-list>div{border-top:1px solid #76708c;padding-top:24px}.technology-list dt{font-size:20px;font-weight:700;color:#e4dfff}.technology-list dd{margin:12px 0 0;color:#c3ccdd;line-height:1.7}.architecture-context{color:#c3ccdd;max-width:800px;line-height:1.8}
+.architecture-limit{background:linear-gradient(116deg,#e9e5fa,#ecf9f6)}.architecture-limit .display-head span{color:#6961ac}.architecture-limit p{color:#505c70;line-height:1.85;max-width:850px;margin:28px 0}.architecture-credit{padding-top:25px;border-top:1px solid #bdc8d7}
+@media(max-width:1000px){.architecture-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.technology-list{grid-template-columns:1fr}}
+@media(max-width:640px){.architecture-page .nav-shell{gap:12px}.architecture-back{padding:10px 12px;font-size:11px}.architecture-page .brand-symbol{display:none}.architecture-hero{padding:65px 0}.architecture-hero p{font-size:16px}.architecture-flow,.flow-destinations{grid-template-columns:1fr}.architecture-flow{margin-top:30px}.architecture-flow li,.flow-destinations article{padding:24px}.architecture-hero .kicker{font-size:10px;letter-spacing:.08em}.architecture-note{line-height:1.8}}
